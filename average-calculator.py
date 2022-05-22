@@ -1,6 +1,8 @@
+import math
+
 # usr manual
 
-print("average calculator tool v1.0")
+print("average calculator tool v1.2")
 print("once you have typed the maximum amount of numbers you want to average...")
 num2 = float(input("How many number(s) are you avereging? 2-10\n" + '>>> '))
 
@@ -104,3 +106,11 @@ if num2 ==float('10'):
     num1 = stock1 + stock2 + stock3 + stock4 + stock5 + stock6 + stock7 + stock8 + stock9 + stock10
     sum = num1 / num2
     print(">>> " + str(sum))
+
+print("would you like to round you answer?  y/n")
+rond = input('>>> ')
+
+if rond =='y':
+    print(round(sum))
+else:
+    print('ending')
