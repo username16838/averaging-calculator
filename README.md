@@ -4,6 +4,12 @@ A calculator to find the averages of multiple numbers
 
 release notes:
 -----------------------------------
+v1.2.2
+
+added the abilty to "re-run" the
+program for added usablity
+
+-----------------------------------
 v1.2.1
 
 Added threading to make program
