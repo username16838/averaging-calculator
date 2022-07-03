@@ -4,7 +4,7 @@ from threading import Thread
 def main():
     # usr manual
 
-    print("average calculator tool v1.2.2")
+    print("average calculator tool v1.2.3")
     print("once you have typed the maximum amount of numbers you want to average...")
 
     while True:
@@ -125,9 +125,9 @@ def main():
         rept = input("do you want to run again? y/n | >>> ").lower
         
         if rept == 'n':
-            break
-        else:
             continue
+        else:
+            break
 
 # start/end Threads
 
